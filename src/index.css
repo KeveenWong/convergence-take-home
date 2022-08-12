@@ -3,7 +3,17 @@
 @tailwind utilities;
 
 h1 {
+  display: flex;
   font-family: 'Questrial';
   font-size: 300px;
+  font-size: 15vw;
   text-align: center;
+  justify-content: center;
+}
+
+img {
+  border-radius: 25px;
+  border: 2px solid black;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  margin: 20px;
 }
