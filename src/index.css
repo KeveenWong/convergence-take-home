@@ -12,8 +12,28 @@ h1 {
 }
 
 img {
+  width: 370px;
   border-radius: 25px;
   border: 2px solid black;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  
+}
+
+.image-container {
+  display: inline-block;
   margin: 20px;
+  cursor: pointer;
+  position: relative; 
+}
+
+.text-on-image {
+  position: absolute;
+  top: 50%;
+  
+  -webkit-transform: rotate(-45deg); 
+  -moz-transform: rotate(-45deg); 
+   -ms-transform: rotate(-45deg); 
+    -o-transform: rotate(-45deg); 
+       transform: rotate(-45deg);
+  
 }
